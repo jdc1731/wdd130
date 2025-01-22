@@ -1,7 +1,38 @@
 :root {
 --primary-color: #373466;
---secondary-color: #DFD6D6;
---ascent1-color: #1B5866;
+--secondary-color: #1B5866;
+--ascent1-color: #DFD6D6;
 --ascent2-color: #AD70AD;
 --font-size: 16px;
 }
+* {
+    max-width: 1500px;
+}
+h1 {color: var(--primary-color);
+font-family: 'delius static', sans-serif;}
+h2 {color:var(--secondary-color);
+    font-family: 'sour gummy', sans-serif;
+    position: absolute;
+}
+p {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;}
+nav {background-color: var(--ascent1-color);
+height: 80px;}
+a{text-decoration: none;}
+div {position: relative;}
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article {
+    position: absolute;
+    background-color: var(--ascent2-color);
+    opacity: 50%;
+}
+article img {
+    float: right;
+}
+
+
