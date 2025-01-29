@@ -1,0 +1,157 @@
+:root {
+--primary-color: #373466;
+--secondary-color: #1B5866;
+--accent1-color: #DFD6D6;
+--accent2-color: #AD70AD;
+--font-size: 16px;
+}
+* {
+    max-width: 1000px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--accent1-color);
+}
+
+.logo {
+    margin-left: 70px;
+    max-height: 120px;
+    width: auto;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 5px;
+    width:90px;
+    color: white;
+    border-radius: 10px;
+}
+h1 {color: var(--accent1-color);
+    background-color: #373466;
+    padding: 5px 20px;
+font-family: 'delius static', sans-serif;
+position: absolute;
+font-size: 40px;
+top: 9px;
+left: 600px;
+display: block;}
+
+
+h2 {color:var(--secondary-color);
+    font-family: 'sour gummy', sans-serif;
+    font-size: 30px;
+    grid-column:1/6;
+    justify-self: center;
+}
+
+p {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;}
+
+nav {
+    height: 150px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 70px;
+        }
+
+a {text-decoration: none;
+}
+
+.hero {position: relative;}
+
+.main {
+    width: 100%;
+    height: auto;
+    opacity: 85%;}
+article {
+    position: absolute;
+    display: block;
+    width: 500px;
+    left: 400px;
+    top: 300px;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    opacity: 85%;
+   
+}
+article img {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    }
+
+footer p {
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: "Bona Nova SC", serif;
+}
+
+.social a img {
+    height: 40px;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.adventure {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap:10px;
+    justify-content: center;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    margin-left: 20px;
+
+}
+
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+.images img {
+    width:100%;
+}
+
+.history {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.history img {
+    width: 200px;
+}
+
+
+
