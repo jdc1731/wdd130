@@ -10,9 +10,10 @@
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
+    padding: 10px 20px;
     width: 100%;
     background-color: var(--accent1-color);
 }
@@ -26,6 +27,7 @@ header {
 nav a {
     display: flex;
     justify-content: center;
+    text-decoration: none;
     background-color: var(--primary-color);
     padding: 5px;
     width:90px;
@@ -39,7 +41,9 @@ font-family: 'delius static', sans-serif;
 position: absolute;
 font-size: 40px;
 top: 9px;
-left: 600px;
+text-align: center;
+max-width: 944px;
+width: 100%;
 display: block;}
 
 
@@ -54,15 +58,14 @@ p {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 18px;}
 
 nav {
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
     height: 150px;
-    display:flex;
     gap: 20px;
     align-items: center;
     margin-right: 70px;
         }
-
-a {text-decoration: none;
-}
 
 .hero {position: relative;}
 
@@ -73,12 +76,12 @@ a {text-decoration: none;
 article {
     position: absolute;
     display: block;
-    width: 500px;
-    left: 400px;
+    width: 100%;
+    max-width: 965px;
     top: 300px;
     padding: 10px;
     background-color: var(--accent2-color);
-    opacity: 85%;
+    opacity: 90%;
    
 }
 article img {
