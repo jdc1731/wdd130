@@ -13,7 +13,7 @@
 }
 header, footer, main, .main {
     max-width: 1000px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 header {
@@ -42,11 +42,11 @@ nav a {
 }
 h1 {color: var(--accent1-color);
     background-color: #373466;
-    padding: 5px 20px;
+    padding: 7px 20px;
 font-family: 'delius static', sans-serif;
 position: absolute;
 font-size: 40px;
-top: 9px;
+top: 30px;
 text-align: center;
 width: 100%;
 display: block;}
@@ -132,8 +132,6 @@ figure {
 }
 
 .images img {
-    
-    margin-left: 10px;
     width:170px;
     height: 230px;
     object-fit: cover;
