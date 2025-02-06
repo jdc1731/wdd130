@@ -25,7 +25,6 @@ form {
     padding: 10px;
     border: 1.5px solid white;
     border-radius: 5px;
-    display: grid;
 }
 
 fieldset {
@@ -64,6 +63,8 @@ input[type="checkbox"] {
 button {
     width: 120px;
     height: 30px;
+    display: block;
+    margin: 0 auto;
 }
 
 button:hover {
@@ -78,10 +79,10 @@ footer {
     text-align: center;
 }
 
-.form-item {
+/* .form-item {
     display: grid;
     align-items: center;
-}
+} */
 
 .column1 {
     grid-template-columns: 3fr 1fr;
