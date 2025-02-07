@@ -106,9 +106,15 @@ footer {
     }
 
 footer p {
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 16px;
     font-family: "Bona Nova SC", serif;
+    color: var(--accent1-color);
+}
+
+footer a {
+    color: var(--accent1-color);
+    text-decoration: none;
 }
 
 .social a img {
@@ -158,4 +164,106 @@ figure {
 }
 
 
+form {
+    display: grid;
+    gap: 20px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
 
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    padding: 15px;
+    align-items: center;
+}
+
+legend {
+    padding: 10px;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+label, input, button, select, textarea, legend {
+    font-family: 'sour gummy', ariel, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 20px;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
+
+
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-left: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+.textarea {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 220px;
+    height: 220px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+.map p {
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 50px;
+    font-family: "Bona Nova SC", serif;
+}
+
+.map h2 {
+    font-size: 50px;
+    padding: 10px;
+}
