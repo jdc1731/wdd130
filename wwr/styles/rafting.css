@@ -40,7 +40,7 @@ nav a {
     color: white;
     border-radius: 10px;
 }
-h1 {color: var(--accent1-color);
+.about {color: var(--accent1-color);
     background-color: #373466;
     padding: 7px 20px;
 font-family: 'delius static', sans-serif;
@@ -263,14 +263,21 @@ iframe {
     font-family: "Bona Nova SC", serif;
 }
 
-.map h2 {
-    font-size: 50px;
-    padding: 10px;
-}
-
 .employees {
     display: flex;
     justify-content: center; 
     align-items: center;
     margin-top: 20px; 
+}
+
+.contact {
+    color: var(--accent1-color);
+        background-color: #373466;
+        padding: 7px 20px;
+    font-family: 'delius static', sans-serif;
+    font-size: 40px;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
