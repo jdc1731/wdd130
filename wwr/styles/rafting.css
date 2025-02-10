@@ -280,3 +280,53 @@ iframe {
     width: 100%;
     display: block;
 }
+
+.trip {
+    display: grid;
+    grid-template-columns: 500px 1fr; 
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.trip img {
+    width:500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.trip p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: #373466;
+    padding: 20px;
+    color: var(--accent1-color);
+    
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #1B5866;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px ;
+    text-align: center;
+    font-family: 'sour gummy', sans-serif;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #AD70AD;
+    transform: scale(1.5);
+    color: black;
+}
