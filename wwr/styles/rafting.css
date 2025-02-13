@@ -73,10 +73,12 @@ nav {
     margin-right: 70px;
         }
 
-.hero {position: relative;}
+.hero {position: relative;
+   }
 
 .main {
     opacity: 85%;
+    width: 100%;
 }
 
 article {
