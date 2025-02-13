@@ -357,26 +357,13 @@ table, th, td {
     object-fit: cover;
   }
 
-  .index_form input {
-    width: 350px;
-  }
-
   .index_form label {
-    display: grid;
-    justify-items: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 5px;
     margin-top: 10px;
-  }
-
-  /* #newsletter {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  #newsletter input[type="checkbox"]{
-    margin-right: 0;
-  } */
+}
 
   #trip-option {
     position: absolute;
@@ -384,5 +371,18 @@ table, th, td {
     width: 300px;
     margin-left: 600px;
     border-radius: 5px;
-    top: 250px;
+    top: 430px;
   }
+
+  input[type="checkbox"] {
+    transform: scale(1.5); 
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+ input[type="text"],
+ input[type="email"] {
+    width: 300px; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
