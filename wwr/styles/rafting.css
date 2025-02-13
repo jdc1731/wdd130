@@ -303,6 +303,7 @@ iframe {
     background-color: #373466;
     padding: 20px;
     color: var(--accent1-color);
+    border-radius: 5px;
     
 }
 
@@ -316,6 +317,7 @@ iframe {
     width: 300px ;
     text-align: center;
     font-family: 'sour gummy', sans-serif;
+    border: 3px solid black;
 }
 
 .cta-container {
@@ -330,3 +332,57 @@ iframe {
     transform: scale(1.5);
     color: black;
 }
+
+table, th, td {
+    border: 3px solid var(--primary-color);
+    border-collapse: collapse; 
+    padding: 15px 10px; 
+    width: 70%;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 25px;
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: 0 4px 
+  }
+
+  th {
+    background-color: #AD70AD;
+    color: black;
+  }
+
+  .index_hero {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .index_form input {
+    width: 350px;
+  }
+
+  .index_form label {
+    display: grid;
+    justify-items: start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  /* #newsletter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  #newsletter input[type="checkbox"]{
+    margin-right: 0;
+  } */
+
+  #trip-option {
+    position: absolute;
+    display: block;
+    width: 300px;
+    margin-left: 600px;
+    border-radius: 5px;
+    top: 250px;
+  }
